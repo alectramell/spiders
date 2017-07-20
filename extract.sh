@@ -2,4 +2,8 @@
 
 clear
 
-curl ipinfo.io | pg
+curl ipinfo.io
+
+read -s -n1
+
+clear 
