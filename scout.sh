@@ -2,7 +2,9 @@
 
 clear
 
-locate -r /*.$1 > /home/$(whoami)/Desktop/spiderweb.txt
+read -p "Scout for File Type (html, txt, pdf, sh, js, etc..): " FILETYPE
+
+locate -r /*.$FILETYPE > /home/$(whoami)/Desktop/spiderweb.txt
 
 clear
 
