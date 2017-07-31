@@ -24,6 +24,4 @@ clear
 
 UPDATE
 
-INSTALL
-
 clear
