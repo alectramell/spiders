@@ -7,10 +7,23 @@ WHEREAMI=$(pwd)
 
 clear
 
-sudo apt-get update
+UPDATE() {
+
+	sudo apt-get update
+}
 
 clear
 
+INSTALL() {
+
 sudo apt-get install $1
+
+}
+
+clear
+
+UPDATE
+
+INSTALL
 
 clear
